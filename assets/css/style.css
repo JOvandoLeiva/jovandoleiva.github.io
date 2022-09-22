@@ -1,0 +1,30 @@
+.container{
+   
+}
+
+#banner{
+    /* background-image: url("../img/banner00.jpg"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+}
+
+nav{
+    background-color: #c0aab7;
+}
+body{
+    /* background-image: url("../img/wallpaper01.jpg"); */
+    background-color: #b84a86ad;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.imgP
+{
+    width: 8em;
+    height: 8em;
+}
