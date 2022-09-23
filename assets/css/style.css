@@ -1,14 +1,24 @@
-.container{
-   
-}
+
 
 #banner{
-    /* background-image: url("../img/banner00.jpg"); */
+    background-image: url("../img/banner00.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    padding-bottom: 33em;
   
+}
+
+.fuente{
+
+    font-family: 'Great Vibes', cursive;
+    padding-top: 1em;
+
+}
+
+.cita{
+    font-family: 'Cinzel', serif;
 }
 
 nav{
@@ -27,4 +37,8 @@ body{
 {
     width: 8em;
     height: 8em;
+}
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
 }

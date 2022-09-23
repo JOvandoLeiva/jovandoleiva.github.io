@@ -7,12 +7,14 @@
     <script src="https://kit.fontawesome.com/d84939183e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Great+Vibes&family=Passions+Conflict&display=swap" rel="stylesheet">
     <title>JOL</title>
 </head>
 <body>
 
-      <nav class="navbar navbar-expand-lg navbar-light">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Judith Ovando Leiva</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,10 +26,17 @@
                 <!-- <a class="nav-link active" aria-current="page" href="#">Home</a> -->
              
               </li>
-              <!-- <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#sobremi">Sobre mí</a>
               </li>
-              <li class="nav-item dropdown">
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#desarrollos">Desarrollos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#conocimientos">Conocimientos</a>
+            </li>
+             <!--  <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Dropdown
                 </a>
@@ -41,20 +50,20 @@
               <li class="nav-item">
                 <a class="nav-link disabled">Disabled</a>
               </li>
-            </ul>
-             -->
+            </ul> -->
+            
           </div>
         </div>
       </nav>
 
-      <header id="banner" class="text-dark text-end py-5 mt-0">
+      <header id="banner" class="text-dark text-end mt-0">
         <div class="container">
             <div class="ms-auto col-12 col-md-7 ">
-                <h1 class="display-1 fw-bold my-6">
-                    Judith <!-- <br> HANAMI -->
+                <h1 class="display-1 fw-bold my-6 fuente">
+                    Bienvenido a mi portafolio web <!-- <br> HANAMI -->
                 </h1>
-                <p class="my-3">
-                    <strong>Bienvenido a mi portafolio web  </strong> <br>
+                <p class="my-3 cita">
+                   <!--  <strong>Bienvenido a mi portafolio web  </strong> <br> -->
                     "El genio se compone del dos por ciento de talento y del noventa y ocho por ciento de perseverante aplicación" - Ludwig van Beethoven
                 </p>
                 <div class="mb-5 pb-5">
@@ -68,36 +77,27 @@
     <hr>
       <div class="container-fluid b-6">
         <section id="Acerca-de-mi" class="container text-center my-5">
-
-          <!-- <div class="row">
-            <div class="col-lg-4 mt-4">
-              <div class="card mx-auto" style="width: 18rem;">
-                  <img src="./assets/img/imagen01.jpg" class="card-img-top" alt="...">
-  
-              </div>
-             </div>
-            
-
-  
-          </div> -->
          
-          <h2 class="display-4 fw-bold my-4">Acerca de mi</h2>
+          <h2 class="display-4 fw-bold my-4" id="sobremi">Acerca de mi</h2>
   
           <p class="my-4">
-             Ingeniera informática con más de 5 años en el área. 
+             Desde los 13 años aprendiendo de tecnología y más de 5 años ejerciendo profesionalmente como Ingeniera Informática.
+            <br>
+             En los siguientes íconos podrás ver mi perfil de Linkedin y algunos de mis post en el sitio de Pisapapeles dedicado a la tecnología. 
           </p>
 
           <div class="row">
-            <div class="col-lg-4 mt-4">
-              <div class="col-lg-4 align-self-center">
+            <div class="col-lg-6 mt-4">
+              <div class="col-lg-12 align-self-center">
                 <a class="nav-link fa-brands fa-linkedin fa-6x my-3" target="_blank" href="https://www.linkedin.com/in/judith-ovando-497747b9/"></a>
               </div>
             </div>
-           <!--  <div class="col-lg-4 mt-4">
-              <div class="col-lg-4 align-self-center">
-                <img src="./assets/img/pisapapeles.png" class="card-img-top imgP" alt="...">
+            <div class="col-lg-6 mt-4">
+              <div class="col-lg-12 align-self-center">
+                <a class="nav-link fa-regular fa-newspaper fa-6x my-3" target="_blank" href="https://pisapapeles.net/author/judith/"></a>
+                <!-- <img src="./assets/img/pisapapeles.png" class="card-img-top imgP" alt="..."> -->
               </div>
-            </div> -->
+            </div>
       
          <!--  </div>
               <div class="col-lg-4 align-self-center">
@@ -110,7 +110,7 @@
           <hr>
             <div class="container">
 
-              <h2 class="text-center m-5">Mis desarrollos web</h2>
+              <h2 class="text-center m-5" id="desarrollos">Mis desarrollos web</h2>
               <div id="carouselExampleCaptions" class=" carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -124,6 +124,7 @@
                     <div class=" bg-dark carousel-caption d-none d-md-block">
                       <h5 class="">Curriculum Ficticio</h5>
                       <p>Curriculum básico HTML sin estilo CSS</p>
+                      <a href="https://github.com/JOvandoLeiva/dl_cv_page" target="_blank">Repositorio GitHub</a>
                     </div>
                   </div>
                   <div class="carousel-item">
@@ -131,6 +132,7 @@
                     <div class="bg-dark carousel-caption d-none d-md-block">
                       <h5 class="">Posicionamiento de objetos</h5>
                       <p>Página HTML con posicionamiento de objetos y CSS básico</p>
+                      <a href="https://github.com/JOvandoLeiva/dl_css_basic_page" target="_blank">Repositorio GitHub</a>
                     </div>
                   </div>
                   <div class="carousel-item">
@@ -138,6 +140,7 @@
                     <div class=" bg-dark carousel-caption d-none d-md-block">
                       <h5 class="">Proyecto Iguana</h5>
                       <p>Creación de página desde maqueta.</p>
+                      <a href="https://github.com/JOvandoLeiva/dl_iguana_page" target="_blank">Repositorio GitHub</a>
                     </div>
                   </div>
                   <div class="carousel-item">
@@ -145,6 +148,8 @@
                     <div class=" bg-dark carousel-caption d-none d-md-block">
                       <h5 class="">Proyecto Cupon</h5>
                       <p>Página de venta de productos con ofertas</p>
+                      <a href=" https://github.com/JOvandoLeiva/dl_cupon_page" target="_blank">Repositorio GitHub</a>
+                     
                     </div>
                   </div>
                 </div>
@@ -162,7 +167,7 @@
 
             <div class="container">
               <div class="row m-5">
-            <h3 class="text-center m-4">Otros conocimientos</h3>
+            <h3 class="text-center m-4" id="conocimientos">Otros conocimientos</h3>
             <div class=" col-lg-4 mt-4 card mx-auto" style="width: 16rem;">
               <img src="./assets/img/conocimiento00.png" class="card-img-top" alt="...">
               <div class="card-body">
@@ -185,9 +190,9 @@
             </div> <!-- cierre container tarjetas -->
 
 
-            <footer class="bg-dark text-center text-light p-4">
+            <footer class="bg-dark text-center text-light p-4 width">
               <p class="mb-0">&copy; Judith Ovando. <br> Todos los derechos reservados.</p>
-          </footer>
+            </footer>
           
       </div> <!--  Cierre de container principal -->
    
